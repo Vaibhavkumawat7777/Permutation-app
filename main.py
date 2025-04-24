@@ -1,7 +1,7 @@
 from collections import defaultdict
 import author as au
 
-nameOfProject = "ih"
+nameOfProject = "PNC CALCULATOR"
 au.start(nameOfProject)
 print("Hi, I'm Lio, what about You?")
 name = input("I'm : ")
@@ -32,7 +32,7 @@ def norepetation(string):
             letter_count[char] += 1
     result = dict(letter_count)
     product = 1
-    print(result.values())
+    #print(result.values())
     for key in result.keys():
         product = product*factorial(result[key])
     return (factorial(len(listOfString)))/product        
